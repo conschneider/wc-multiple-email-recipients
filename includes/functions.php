@@ -60,7 +60,7 @@ if( is_plugin_active( 'woocommerce/woocommerce.php' ) ) {
 
 	}
 
-	if ($object == 'customer_on_hold_order' && $wcme_options['enable_on_hold']) {
+	if ($id == 'customer_on_hold_order' && $wcme_options['enable_on_hold']) {
 	$headers .= 'Bcc: ' . implode(',', $emails) . "\r\n";
 		//break;
 	}
