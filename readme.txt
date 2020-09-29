@@ -72,6 +72,9 @@ The duplicated mails sent by this plugin are sent using "BCC". Thus they will no
 
 == Changelog ==
 
+= 1.3.1 =
+* Fixed id for customer_on_hold_order filter.
+
 = 1.3 =
 * Added support for partial refund email notification.
 
