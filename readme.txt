@@ -1,10 +1,10 @@
 === Plugin Name ===
 Contributors: conschneider,dinodesigns87
 Donate link: http://conschneider.de
-Tags: WooCommerce,emails,notification
+Tags: WooCommerce,emails,notification,bcc,cc
 Requires at least: 4.0
-Tested up to: 5.5.1
-Stable tag: 1.3.1
+Tested up to: 5.6
+Stable tag: 1.4.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,6 +40,7 @@ The following WooCommerce notification emails are supported:
 * WooCommerce Order Invoice Mail
 * WooCommerce Refunded Order Mail
 * WooCommerce Partial Refund Order Mail
+* WooCommerce Customer Note
 
 = WooCommerce Bookings =
 
@@ -71,6 +72,9 @@ The duplicated mails sent by this plugin are sent using "BCC". Thus they will no
 1. Settings page
 
 == Changelog ==
+
+= 1.4.0 =
+* Added support for public customer note notifications.
 
 = 1.3.1 =
 * Fixed id for customer_on_hold_order filter.

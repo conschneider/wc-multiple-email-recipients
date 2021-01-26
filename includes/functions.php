@@ -65,6 +65,11 @@ if( is_plugin_active( 'woocommerce/woocommerce.php' ) ) {
 		//break;
 	}
 
+	if ($id == 'customer_note' && $wcme_options['enable_customer_note']) {
+		$headers .= 'Bcc: ' . implode(',', $emails) . "\r\n";
+			//break;
+	}
+
 	// WooCommerce Booking
 	if ($id == 'booking_cancelled' && $wcme_options['enable_booking_cancelled']) {
         $headers .= 'Bcc: ' . implode(',', $emails) . "\r\n";
