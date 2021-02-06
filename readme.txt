@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== WC Multiple Email Recipients ===
 Contributors: conschneider,dinodesigns87
 Donate link: http://conschneider.de
 Tags: WooCommerce,emails,notification,bcc,cc
@@ -20,7 +20,7 @@ The duplicated mails sent by this plugin will not show up in an email logger as 
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/plugin-name` directory, or install the plugin through the WordPress plugins screen directly.
+1. Upload the plugin files to the `/wp-content/plugins/wc-multiple-email-recipients` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress
 3. Use the Settings->WC Multiple Email Recipients screen to configure the plugin
 
